@@ -146,7 +146,6 @@ fieldset {
   outline-offset: 1px;
 }
 
-
 .search-form__label:has(:active) {
   outline: none;
 }
