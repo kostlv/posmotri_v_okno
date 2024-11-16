@@ -141,13 +141,14 @@ fieldset {
   cursor: pointer;
 }
 
-.search-form__label:has(:active) {
-  outline: none;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
   outline-offset: 1px;
+}
+
+
+.search-form__label:has(:active) {
+  outline: none;
 }
 
 .search-form__label:hover .search-form__label-text {
